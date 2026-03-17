@@ -1,0 +1,27 @@
+﻿node.exe : npm error 
+Invalid Version: 
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Users\VIDWAN\AppDat
+a\Roaming ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (npm error Inv   
+ alid Version: :Str    
+ing) [], RemoteExc    
+eption
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+npm error A complete 
+log of this run can be 
+found in: C:\Users\VIDW
+AN\AppData\Local\npm-ca
+che\_logs\2026-03-07T13
+_39_12_119Z-debug-0.log

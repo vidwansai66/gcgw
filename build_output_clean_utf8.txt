@@ -1,0 +1,1626 @@
+﻿
+> temp_app@0.1.0 build
+> next build
+
+node.exe : ΓÜá 
+Warning: Next.js 
+inferred your 
+workspace root, but it 
+may not be correct.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Users\VIDWAN\AppDat
+a\Roaming ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (ΓÜá Warning:    
+ Ne...not be correc    
+t.:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+ We detected multiple 
+lockfiles and selected 
+the directory of C:\Use
+rs\VIDWAN\package-lock.
+json as the root 
+directory.
+ To silence this 
+warning, set 
+`turbopack.root` in 
+your Next.js config, 
+or consider removing 
+one of the lockfiles 
+if it's not needed.
+   See https://nextjs.o
+rg/docs/app/api-referen
+ce/config/next-config-j
+s/turbopack#root-direct
+ory for more 
+information.
+ Detected additional 
+lockfiles: 
+   * C:\Users\VIDWAN\On
+eDrive\Desktop\logo pur
+ose\package-lock.json
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build 
+failed with 16 errors:
+./OneDrive/Desktop/logo
+ purose/src/components/
+AboutUs.tsx:3:1
+Module not found: 
+Can't resolve 
+'framer-motion'
+[0m [90m 1 |[39m 
+[32m"use 
+client"[39m[33m;[39m
+ [90m 2 |[39m
+[31m[1m>[22m[39m[9
+0m 3 |[39m 
+[36mimport[39m { 
+motion } 
+[36mfrom[39m [32m"fr
+amer-motion"[39m[33m;
+[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m
+ [90m 4 |[39m 
+[36mimport[39m { [33
+mLinkedin[39m[33m,[3
+9m [33mTwitter[39m[3
+3m,[39m 
+[33mGithub[39m } 
+[36mfrom[39m [32m"lu
+cide-react"[39m[33m;
+[39m
+ [90m 5 |[39m 
+[36mimport[39m 
+[33mImage[39m 
+[36mfrom[39m [32m"ne
+xt/image"[39m[33m;[3
+9m
+ [90m 6 |[39m[0m
+
+
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/
+logo purose/src/compone
+nts/AboutUs.tsx
+    ./OneDrive/Desktop/
+logo 
+purose/src/app/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./OneDrive/Desktop/logo
+ purose/src/components/
+CTA.tsx:3:1
+Module not found: 
+Can't resolve 
+'framer-motion'
+[0m [90m 1 |[39m 
+[32m"use 
+client"[39m[33m;[39m
+ [90m 2 |[39m
+[31m[1m>[22m[39m[9
+0m 3 |[39m 
+[36mimport[39m { 
+motion } 
+[36mfrom[39m [32m"fr
+amer-motion"[39m[33m;
+[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m
+ [90m 4 |[39m 
+[36mimport[39m { 
+[33mArrowRight[39m } 
+[36mfrom[39m [32m"lu
+cide-react"[39m[33m;
+[39m
+ [90m 5 |[39m 
+[36mimport[39m 
+[33mLink[39m 
+[36mfrom[39m [32m"ne
+xt/link"[39m[33m;[39
+m
+ [90m 6 |[39m[0m
+
+
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/
+logo purose/src/compone
+nts/CTA.tsx
+    ./OneDrive/Desktop/
+logo 
+purose/src/app/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./OneDrive/Desktop/logo
+ purose/src/components/
+Features.tsx:3:1
+Module not found: 
+Can't resolve 
+'framer-motion'
+[0m [90m 1 |[39m 
+[32m"use 
+client"[39m[33m;[39m
+ [90m 2 |[39m
+[31m[1m>[22m[39m[9
+0m 3 |[39m 
+[36mimport[39m { 
+motion } 
+[36mfrom[39m [32m"fr
+amer-motion"[39m[33m;
+[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m
+ [90m 4 |[39m 
+[36mimport[39m { [33
+mZap[39m[33m,[39m [
+33mShield[39m[33m,[3
+9m [33mRocket[39m[33
+m,[39m [33mCpu[39m 
+} [36mfrom[39m [32m"
+lucide-react"[39m[33m
+;[39m
+ [90m 5 |[39m
+ [90m 6 |[39m 
+[36mexport[39m 
+[36mdefault[39m 
+[36mfunction[39m 
+[33mFeatures[39m() 
+{[0m
+
+
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/
+logo purose/src/compone
+nts/Features.tsx
+    ./OneDrive/Desktop/
+logo 
+purose/src/app/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./OneDrive/Desktop/logo
+ purose/src/components/
+Hero.tsx:3:1
+Module not found: 
+Can't resolve 
+'framer-motion'
+[0m [90m 1 |[39m 
+[32m"use 
+client"[39m[33m;[39m
+ [90m 2 |[39m
+[31m[1m>[22m[39m[9
+0m 3 |[39m 
+[36mimport[39m { 
+motion } 
+[36mfrom[39m [32m"fr
+amer-motion"[39m[33m;
+[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m
+ [90m 4 |[39m 
+[36mimport[39m { [33
+mArrowRight[39m[33m,
+[39m 
+[33mSparkles[39m } 
+[36mfrom[39m [32m"lu
+cide-react"[39m[33m;
+[39m
+ [90m 5 |[39m 
+[36mimport[39m 
+[33mLink[39m 
+[36mfrom[39m [32m"ne
+xt/link"[39m[33m;[39
+m
+ [90m 6 |[39m[0m
+
+
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/
+logo purose/src/compone
+nts/Hero.tsx
+    ./OneDrive/Desktop/
+logo 
+purose/src/app/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./OneDrive/Desktop/logo
+ purose/src/components/
+HowItWorks.tsx:3:1
+Module not found: 
+Can't resolve 
+'framer-motion'
+[0m [90m 1 |[39m 
+[32m"use 
+client"[39m[33m;[39m
+ [90m 2 |[39m
+[31m[1m>[22m[39m[9
+0m 3 |[39m 
+[36mimport[39m { 
+motion } 
+[36mfrom[39m [32m"fr
+amer-motion"[39m[33m;
+[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m
+ [90m 4 |[39m 
+[36mimport[39m { [33
+mPlug[39m[33m,[39m 
+[33mSettings2[39m[33m
+,[39m 
+[33mRocket[39m } 
+[36mfrom[39m [32m"lu
+cide-react"[39m[33m;
+[39m
+ [90m 5 |[39m
+ [90m 6 |[39m 
+[36mexport[39m 
+[36mdefault[39m 
+[36mfunction[39m 
+[33mHowItWorks[39m() 
+{[0m
+
+
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/
+logo purose/src/compone
+nts/HowItWorks.tsx
+    ./OneDrive/Desktop/
+logo 
+purose/src/app/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./OneDrive/Desktop/logo
+ purose/src/components/
+Navbar.tsx:3:1
+Module not found: 
+Can't resolve 
+'framer-motion'
+[0m [90m 1 |[39m 
+[32m"use 
+client"[39m[33m;[39m
+ [90m 2 |[39m
+[31m[1m>[22m[39m[9
+0m 3 |[39m 
+[36mimport[39m { 
+motion } 
+[36mfrom[39m [32m"fr
+amer-motion"[39m[33m;
+[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m
+ [90m 4 |[39m 
+[36mimport[39m { [33
+mMenu[39m[33m,[39m 
+[33mX[39m[33m,[39m 
+[33mHexagon[39m } 
+[36mfrom[39m [32m"lu
+cide-react"[39m[33m;
+[39m
+ [90m 5 |[39m 
+[36mimport[39m { 
+useState } 
+[36mfrom[39m [32m"re
+act"[39m[33m;[39m
+ [90m 6 |[39m 
+[36mimport[39m 
+[33mLink[39m 
+[36mfrom[39m [32m"ne
+xt/link"[39m[33m;[39
+m[0m
+
+
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/
+logo purose/src/compone
+nts/Navbar.tsx
+    ./OneDrive/Desktop/
+logo 
+purose/src/app/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./OneDrive/Desktop/logo
+ purose/src/components/
+Stats.tsx:3:1
+Module not found: 
+Can't resolve 
+'framer-motion'
+[0m [90m 1 |[39m 
+[32m"use 
+client"[39m[33m;[39m
+ [90m 2 |[39m
+[31m[1m>[22m[39m[9
+0m 3 |[39m 
+[36mimport[39m { 
+motion } 
+[36mfrom[39m [32m"fr
+amer-motion"[39m[33m;
+[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m
+ [90m 4 |[39m
+ [90m 5 |[39m 
+[36mexport[39m 
+[36mdefault[39m 
+[36mfunction[39m 
+[33mStats[39m() {
+ [90m 6 |[39m     
+[36mconst[39m stats 
+[33m=[39m [[0m
+
+
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/
+logo purose/src/compone
+nts/Stats.tsx
+    ./OneDrive/Desktop/
+logo 
+purose/src/app/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./OneDrive/Desktop/logo
+ purose/src/components/
+Testimonials.tsx:3:1
+Module not found: 
+Can't resolve 
+'framer-motion'
+[0m [90m 1 |[39m 
+[32m"use 
+client"[39m[33m;[39m
+ [90m 2 |[39m
+[31m[1m>[22m[39m[9
+0m 3 |[39m 
+[36mimport[39m { 
+motion } 
+[36mfrom[39m [32m"fr
+amer-motion"[39m[33m;
+[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m
+ [90m 4 |[39m 
+[36mimport[39m { [33
+mStar[39m[33m,[39m 
+[33mQuote[39m } 
+[36mfrom[39m [32m"lu
+cide-react"[39m[33m;
+[39m
+ [90m 5 |[39m
+ [90m 6 |[39m 
+[36mexport[39m 
+[36mdefault[39m 
+[36mfunction[39m [33
+mTestimonials[39m() 
+{[0m
+
+
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/
+logo purose/src/compone
+nts/Testimonials.tsx
+    ./OneDrive/Desktop/
+logo 
+purose/src/app/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./OneDrive/Desktop/logo
+ purose/src/components/
+AboutUs.tsx:4:1
+Module not found: 
+Can't resolve 
+'lucide-react'
+[0m [90m 2 |[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+motion } 
+[36mfrom[39m [32m"fr
+amer-motion"[39m[33m;
+[39m
+[31m[1m>[22m[39m[9
+0m 4 |[39m 
+[36mimport[39m { [33
+mLinkedin[39m[33m,[3
+9m [33mTwitter[39m[3
+3m,[39m 
+[33mGithub[39m } 
+[36mfrom[39m [32m"lu
+cide-react"[39m[33m;
+[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m
+ [90m 5 |[39m 
+[36mimport[39m 
+[33mImage[39m 
+[36mfrom[39m [32m"ne
+xt/image"[39m[33m;[3
+9m
+ [90m 6 |[39m
+ [90m 7 |[39m 
+[36mexport[39m 
+[36mdefault[39m 
+[36mfunction[39m 
+[33mAboutUs[39m() 
+{[0m
+
+
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/
+logo purose/src/compone
+nts/AboutUs.tsx
+    ./OneDrive/Desktop/
+logo 
+purose/src/app/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./OneDrive/Desktop/logo
+ purose/src/components/
+CTA.tsx:4:1
+Module not found: 
+Can't resolve 
+'lucide-react'
+[0m [90m 2 |[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+motion } 
+[36mfrom[39m [32m"fr
+amer-motion"[39m[33m;
+[39m
+[31m[1m>[22m[39m[9
+0m 4 |[39m 
+[36mimport[39m { 
+[33mArrowRight[39m } 
+[36mfrom[39m [32m"lu
+cide-react"[39m[33m;
+[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m
+ [90m 5 |[39m 
+[36mimport[39m 
+[33mLink[39m 
+[36mfrom[39m [32m"ne
+xt/link"[39m[33m;[39
+m
+ [90m 6 |[39m
+ [90m 7 |[39m 
+[36mexport[39m 
+[36mdefault[39m 
+[36mfunction[39m 
+[33mCTA[39m() {[0m
+
+
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/
+logo purose/src/compone
+nts/CTA.tsx
+    ./OneDrive/Desktop/
+logo 
+purose/src/app/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./OneDrive/Desktop/logo
+ purose/src/components/
+Features.tsx:4:1
+Module not found: 
+Can't resolve 
+'lucide-react'
+[0m [90m 2 |[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+motion } 
+[36mfrom[39m [32m"fr
+amer-motion"[39m[33m;
+[39m
+[31m[1m>[22m[39m[9
+0m 4 |[39m 
+[36mimport[39m { [33
+mZap[39m[33m,[39m [
+33mShield[39m[33m,[3
+9m [33mRocket[39m[33
+m,[39m [33mCpu[39m 
+} [36mfrom[39m [32m"
+lucide-react"[39m[33m
+;[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m
+ [90m 5 |[39m
+ [90m 6 |[39m 
+[36mexport[39m 
+[36mdefault[39m 
+[36mfunction[39m 
+[33mFeatures[39m() {
+ [90m 7 |[39m     
+[36mconst[39m 
+features [33m=[39m 
+[[0m
+
+
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/
+logo purose/src/compone
+nts/Features.tsx
+    ./OneDrive/Desktop/
+logo 
+purose/src/app/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./OneDrive/Desktop/logo
+ purose/src/components/
+Footer.tsx:1:1
+Module not found: 
+Can't resolve 
+'lucide-react'
+[0m[31m[1m>[22m[39
+m[90m 1 |[39m 
+[36mimport[39m { [33
+mHexagon[39m[33m,[39
+m [33mGithub[39m[33m
+,[39m [33mTwitter[39
+m[33m,[39m [33mLinke
+din[39m[33m,[39m 
+[33mInstagram[39m } 
+[36mfrom[39m [32m"lu
+cide-react"[39m[33m;
+[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m
+ [90m 2 |[39m 
+[36mimport[39m 
+[33mLink[39m 
+[36mfrom[39m [32m"ne
+xt/link"[39m[33m;[39
+m
+ [90m 3 |[39m
+ [90m 4 |[39m 
+[36mexport[39m 
+[36mdefault[39m 
+[36mfunction[39m 
+[33mFooter[39m() 
+{[0m
+
+
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/
+logo purose/src/compone
+nts/Footer.tsx
+    ./OneDrive/Desktop/
+logo 
+purose/src/app/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./OneDrive/Desktop/logo
+ purose/src/components/
+Hero.tsx:4:1
+Module not found: 
+Can't resolve 
+'lucide-react'
+[0m [90m 2 |[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+motion } 
+[36mfrom[39m [32m"fr
+amer-motion"[39m[33m;
+[39m
+[31m[1m>[22m[39m[9
+0m 4 |[39m 
+[36mimport[39m { [33
+mArrowRight[39m[33m,
+[39m 
+[33mSparkles[39m } 
+[36mfrom[39m [32m"lu
+cide-react"[39m[33m;
+[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+ [90m 5 |[39m 
+[36mimport[39m 
+[33mLink[39m 
+[36mfrom[39m [32m"ne
+xt/link"[39m[33m;[39
+m
+ [90m 6 |[39m
+ [90m 7 |[39m 
+[36mexport[39m 
+[36mdefault[39m 
+[36mfunction[39m 
+[33mHero[39m() {[0m
+
+
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/
+logo purose/src/compone
+nts/Hero.tsx
+    ./OneDrive/Desktop/
+logo 
+purose/src/app/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./OneDrive/Desktop/logo
+ purose/src/components/
+HowItWorks.tsx:4:1
+Module not found: 
+Can't resolve 
+'lucide-react'
+[0m [90m 2 |[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+motion } 
+[36mfrom[39m [32m"fr
+amer-motion"[39m[33m;
+[39m
+[31m[1m>[22m[39m[9
+0m 4 |[39m 
+[36mimport[39m { [33
+mPlug[39m[33m,[39m 
+[33mSettings2[39m[33m
+,[39m 
+[33mRocket[39m } 
+[36mfrom[39m [32m"lu
+cide-react"[39m[33m;
+[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m
+ [90m 5 |[39m
+ [90m 6 |[39m 
+[36mexport[39m 
+[36mdefault[39m 
+[36mfunction[39m 
+[33mHowItWorks[39m() 
+{
+ [90m 7 |[39m     
+[36mconst[39m steps 
+[33m=[39m [[0m
+
+
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/
+logo purose/src/compone
+nts/HowItWorks.tsx
+    ./OneDrive/Desktop/
+logo 
+purose/src/app/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./OneDrive/Desktop/logo
+ purose/src/components/
+Navbar.tsx:4:1
+Module not found: 
+Can't resolve 
+'lucide-react'
+[0m [90m 2 |[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+motion } 
+[36mfrom[39m [32m"fr
+amer-motion"[39m[33m;
+[39m
+[31m[1m>[22m[39m[9
+0m 4 |[39m 
+[36mimport[39m { [33
+mMenu[39m[33m,[39m 
+[33mX[39m[33m,[39m 
+[33mHexagon[39m } 
+[36mfrom[39m [32m"lu
+cide-react"[39m[33m;
+[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m
+ [90m 5 |[39m 
+[36mimport[39m { 
+useState } 
+[36mfrom[39m [32m"re
+act"[39m[33m;[39m
+ [90m 6 |[39m 
+[36mimport[39m 
+[33mLink[39m 
+[36mfrom[39m [32m"ne
+xt/link"[39m[33m;[39
+m
+ [90m 7 |[39m[0m
+
+
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/
+logo purose/src/compone
+nts/Navbar.tsx
+    ./OneDrive/Desktop/
+logo 
+purose/src/app/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./OneDrive/Desktop/logo
+ purose/src/components/
+Testimonials.tsx:4:1
+Module not found: 
+Can't resolve 
+'lucide-react'
+[0m [90m 2 |[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+motion } 
+[36mfrom[39m [32m"fr
+amer-motion"[39m[33m;
+[39m
+[31m[1m>[22m[39m[9
+0m 4 |[39m 
+[36mimport[39m { [33
+mStar[39m[33m,[39m 
+[33mQuote[39m } 
+[36mfrom[39m [32m"lu
+cide-react"[39m[33m;
+[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m
+ [90m 5 |[39m
+ [90m 6 |[39m 
+[36mexport[39m 
+[36mdefault[39m 
+[36mfunction[39m [33
+mTestimonials[39m() {
+ [90m 7 |[39m     
+[36mconst[39m 
+testimonials 
+[33m=[39m [[0m
+
+
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/
+logo purose/src/compone
+nts/Testimonials.tsx
+    ./OneDrive/Desktop/
+logo 
+purose/src/app/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+    at <unknown> (./One
+Drive/Desktop/logo puro
+se/src/components/About
+Us.tsx:3:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./One
+Drive/Desktop/logo puro
+se/src/components/CTA.t
+sx:3:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./One
+Drive/Desktop/logo puro
+se/src/components/Featu
+res.tsx:3:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./One
+Drive/Desktop/logo puro
+se/src/components/Hero.
+tsx:3:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./One
+Drive/Desktop/logo puro
+se/src/components/HowIt
+Works.tsx:3:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./One
+Drive/Desktop/logo puro
+se/src/components/Navba
+r.tsx:3:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./One
+Drive/Desktop/logo puro
+se/src/components/Stats
+.tsx:3:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./One
+Drive/Desktop/logo puro
+se/src/components/Testi
+monials.tsx:3:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./One
+Drive/Desktop/logo puro
+se/src/components/About
+Us.tsx:4:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./One
+Drive/Desktop/logo puro
+se/src/components/CTA.t
+sx:4:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./One
+Drive/Desktop/logo puro
+se/src/components/Featu
+res.tsx:4:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./One
+Drive/Desktop/logo puro
+se/src/components/Foote
+r.tsx:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./One
+Drive/Desktop/logo puro
+se/src/components/Hero.
+tsx:4:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./One
+Drive/Desktop/logo puro
+se/src/components/HowIt
+Works.tsx:4:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./One
+Drive/Desktop/logo puro
+se/src/components/Navba
+r.tsx:4:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./One
+Drive/Desktop/logo puro
+se/src/components/Testi
+monials.tsx:4:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)

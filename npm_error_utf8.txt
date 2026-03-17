@@ -1,0 +1,31 @@
+﻿node.exe : npm warn 
+using --force 
+Recommended 
+protections disabled.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Users\VIDWAN\AppDat
+a\Roaming ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (npm warn usin   
+ g ...tions disable    
+d.:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+npm error Invalid 
+Version: 
+npm error A complete 
+log of this run can be 
+found in: C:\Users\VIDW
+AN\AppData\Local\npm-ca
+che\_logs\2026-03-07T13
+_36_01_707Z-debug-0.log

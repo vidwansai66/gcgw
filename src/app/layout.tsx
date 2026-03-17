@@ -1,0 +1,44 @@
+import type { Metadata } from "next";
+import { Outfit } from "next/font/google";
+import "./globals.css";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
+import ScrollObserver from "@/components/ScrollObserver";
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  weight: ["300", "400", "600", "800"],
+  variable: "--font-outfit",
+});
+
+export const metadata: Metadata = {
+  title: "GCGW | Guniting Construction & Workers Gateway",
+  description:
+    "GCGW is a platform connecting contractors, guniting machine owners, and construction workers. Instantly find available machines and skilled workers for construction projects.",
+  keywords:
+    "GCGW, guniting machines, construction machines India, shotcrete services, construction workers platform, Chavan Construction, guniting services India",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <head>
+        {/* Font Awesome Icons */}
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+      </head>
+      <body className={`${outfit.variable} antialiased`}>
+        <ScrollObserver />
+        <Navigation />
+        {children}
+        <Footer />
+      </body>
+    </html>
+  );
+}

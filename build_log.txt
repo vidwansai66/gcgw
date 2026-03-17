@@ -1,0 +1,79 @@
+﻿node.exe : ΓÜá 
+Warning: Next.js 
+inferred your 
+workspace root, but it 
+may not be correct.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Users\VIDWAN\AppDat
+a\Roaming ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (ΓÜá Warning:    
+ Ne...not be correc    
+t.:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+ We detected multiple 
+lockfiles and selected 
+the directory of C:\Use
+rs\VIDWAN\package-lock.
+json as the root 
+directory.
+ To silence this 
+warning, set 
+`turbopack.root` in 
+your Next.js config, 
+or consider removing 
+one of the lockfiles 
+if it's not needed.
+   See https://nextjs.o
+rg/docs/app/api-referen
+ce/config/next-config-j
+s/turbopack#root-direct
+ory for more 
+information.
+ Detected additional 
+lockfiles: 
+   * C:\Users\VIDWAN\On
+eDrive\Desktop\logo pur
+ose\package-lock.json
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build 
+failed with 1 errors:
+./OneDrive/Desktop/logo
+ purose/src/components
+Invalid import
+'client-only' cannot 
+be imported from a 
+Server Component 
+module. It should only 
+be used from a Client 
+Component.
+The error was caused 
+by using 'styled-jsx'. 
+It only works in a 
+Client Component but 
+none of its parents 
+are marked with "use 
+client", so they're 
+Server Components by 
+default.
+
+
+
+    at ignore-listed 
+frames

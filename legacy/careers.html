@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers at GCGW Construction</title>
+    <meta name="description"
+        content="GCGW is a platform connecting contractors, guniting machine owners, and construction workers. Instantly find available machines and skilled workers for construction projects.">
+    <meta name="keywords"
+        content="GCGW, guniting machines, construction machines India, shotcrete services, construction workers platform, Chavan Construction, guniting services India">
+
+    <!-- Open Graph for Social Media -->
+    <meta property="og:title" content="Careers at GCGW Construction">
+    <meta property="og:description"
+        content="GCGW is a platform connecting contractors, guniting machine owners, and construction workers. Instantly find available machines and skilled workers for construction projects.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gcgw.vercel.app/careers.html">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "GCGW",
+      "description": "Construction machinery and worker connection platform",
+      "url": "https://gcgw.vercel.app",
+      "sameAs": []
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="container nav-container layout-centered">
+            <a href="index.html" class="brand-link logo-left">
+                <div class="logo">
+                    <img src="assets/logo.png" alt="Gopal Chavan Guniting Works Logo" class="corporate-logo">
+                    <div class="logo-text">
+                        <span class="company-name">Gopal Chavan Guniting Works</span>
+                        <span class="tagline">Construction & Infrastructure</span>
+                    </div>
+                </div>
+            </a>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="careers.html" class="nav-link">Careers</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Inner Hero Section -->
+    <section class="inner-hero" style="background-image: url('assets/hero-bg.png');">
+        <div class="container inner-hero-content animate-on-scroll">
+            <h1 class="inner-hero-title">Careers</h1>
+            <p class="inner-hero-subtitle">Build your future with a leading structural reinforcement company.</p>
+        </div>
+    </section>
+
+    <!-- Careers Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="careers-content">
+                <div class="section-header animate-on-scroll">
+                    <h2>Join Our Team</h2>
+                    <div class="divider"></div>
+                    <p style="max-width: 800px; margin: 0 auto;">We are constantly looking for dedicated and skilled
+                        individuals to join our growing team. If you have experience in construction, structural repair,
+                        or heavy machinery operations, we want to hear from you.</p>
+                </div>
+
+                <div class="career-roles animate-on-scroll">
+                    <div class="career-role-card">
+                        <h3>Machine Operator</h3>
+                        <p>Experience in operating shotcrete and guniting machinery.</p>
+                    </div>
+                    <div class="career-role-card">
+                        <h3>Nozzle Man</h3>
+                        <p>Skilled in high-pressure concrete spraying applications.</p>
+                    </div>
+                    <div class="career-role-card">
+                        <h3>Construction Helper</h3>
+                        <p>Assisting site operations, material handling, and setup.</p>
+                    </div>
+                    <div class="career-role-card">
+                        <h3>Site Supervisor</h3>
+                        <p>Managing site safety, quality control, and schedule.</p>
+                    </div>
+                </div>
+
+                <div class="contact-form animate-on-scroll" style="max-width: 600px; margin: 0 auto; width: 100%;">
+                    <h3 style="text-align: center; margin-bottom: 20px; color: var(--primary-dark);">Apply Now</h3>
+                    <form action="#" method="POST" id="careerForm">
+                        <div class="form-group">
+                            <input type="text" id="career-name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="career-mobile" placeholder="Your Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="career-role" required
+                                style="width: 100%; padding: 15px; border: 1px solid var(--border-color); border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 1rem; background-color: var(--bg-light); color: var(--text-muted); cursor: pointer;">
+                                <option value="" disabled selected>Role applying for...</option>
+                                <option value="Machine Operator">Machine Operator</option>
+                                <option value="Nozzle Man">Nozzle Man</option>
+                                <option value="Construction Helper">Construction Helper</option>
+                                <option value="Site Supervisor">Site Supervisor</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit Application <i
+                                class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">
+                    <span>GOPAL CHAVAN GUNITING WORKS</span>
+                </a>
+                <p>Specialists in structural reinforcement, soil anchoring, and professional guniting services across
+                    Hyderabad.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>Yousufguda, Hyderabad - 500045</p>
+                <p>Phone: +91 939857 7232</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Gopal Chavan Guniting Work. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/919398577232?text=Hello%20Gopal%20Chavan%20Guniting%20Works,%20I%20have%20an%20inquiry."
+        class="whatsapp-btn" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>

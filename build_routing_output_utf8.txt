@@ -1,0 +1,126 @@
+﻿
+> temp_app@0.1.0 build C:\Users\VIDWAN\OneDrive\Desktop\logo purose
+> next build
+
+node.exe : ΓÜá 
+Warning: Next.js 
+inferred your 
+workspace root, but it 
+may not be correct.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Users\VIDWAN\AppDat
+a\Roaming ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (ΓÜá Warning:    
+ Ne...not be correc    
+t.:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+ We detected multiple 
+lockfiles and selected 
+the directory of C:\Use
+rs\VIDWAN\package-lock.
+json as the root 
+directory.
+ To silence this 
+warning, set 
+`turbopack.root` in 
+your Next.js config, 
+or consider removing 
+one of the lockfiles 
+if it's not needed.
+   See https://nextjs.o
+rg/docs/app/api-referen
+ce/config/next-config-j
+s/turbopack#root-direct
+ory for more 
+information.
+ Detected additional 
+lockfiles: 
+   * C:\Users\VIDWAN\On
+eDrive\Desktop\logo 
+purose\pnpm-lock.yaml
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build 
+failed with 1 errors:
+./OneDrive/Desktop/logo
+ purose/src/components/
+Hero.tsx:38:33
+Parsing ecmascript 
+source code failed
+[0m [90m 36 |[39m   
+                      
+[33m<[39m[33mdiv[39m
+ className[33m=[39m[
+32m"flex flex-col 
+sm:flex-row 
+items-center gap-4 
+justify-center lg:justi
+fy-start"[39m[33m>[3
+9m
+ [90m 37 |[39m       
+                      
+[33m<[39m[33mLink[39
+m
+[31m[1m>[22m[39m[9
+0m 38 |[39m           
+                      
+[33m<[39m[33mLink[39
+m
+ [90m    |[39m       
+                       
+   [31m[1m^[22m[39m
+ [90m 39 |[39m       
+                       
+   href[33m=[39m[32m
+"/services"[39m
+ [90m 40 |[39m       
+                       
+   className[33m=[39m
+[32m"w-full sm:w-auto 
+px-8 py-4 rounded-full 
+bg-blue-600 
+hover:bg-blue-500 
+text-white font-medium 
+transition-all hover:sh
+adow-[0_0_30px_rgba(59,
+130,246,0.5)] flex 
+items-center 
+justify-center 
+gap-2"[39m
+ [90m 41 |[39m       
+                      
+[33m>[39m[0m
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/
+logo purose/src/compone
+nts/Hero.tsx
+    ./OneDrive/Desktop/
+logo 
+purose/src/app/page.tsx
+
+
+    at <unknown> (./One
+Drive/Desktop/logo puro
+se/src/components/Hero.
+tsx:38:33)
+ΓÇëELIFECYCLEΓÇë Command failed with exit code 1.
