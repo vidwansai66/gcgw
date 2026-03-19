@@ -34,11 +34,11 @@ export default function Navigation() {
                     <div className="logo">
                         <img
                             src="/assets/logo.png"
-                            alt="Gopal Chavan Guniting Works Logo"
+                            alt="GC Constructions Pvt Ltd Logo"
                             className="corporate-logo"
                         />
                         <div className="logo-text">
-                            <span className="company-name">Gopal Chavan Guniting Works</span>
+                            <span className="company-name">GC Constructions Pvt Ltd</span>
                             <span className="tagline">Construction & Infrastructure</span>
                         </div>
                     </div>

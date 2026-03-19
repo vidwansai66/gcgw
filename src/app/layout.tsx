@@ -12,11 +12,11 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "GCGW | Guniting Construction & Workers Gateway",
+  title: "GC Constructions | Guniting Construction & Infrastructure",
   description:
-    "GCGW is a platform connecting contractors, guniting machine owners, and construction workers. Instantly find available machines and skilled workers for construction projects.",
+    "GC Constructions Pvt Ltd is a platform connecting contractors, guniting machine owners, and construction workers. Instantly find available machines and skilled workers for construction projects.",
   keywords:
-    "GCGW, guniting machines, construction machines India, shotcrete services, construction workers platform, Chavan Construction, guniting services India",
+    "GC Constructions, guniting machines, construction machines India, shotcrete services, construction workers platform, GC Constructions Pvt Ltd, guniting services India",
 };
 
 export default function RootLayout({

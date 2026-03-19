@@ -7,7 +7,7 @@ export default function Footer() {
                 <div className="container footer-content">
                     <div className="footer-brand">
                         <Link href="/" className="footer-logo">
-                            <span>GOPAL CHAVAN GUNITING WORKS</span>
+                            <span>GC Constructions Pvt Ltd</span>
                         </Link>
                         <p>
                             Specialists in structural reinforcement, soil anchoring, and
@@ -44,13 +44,13 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p>&copy; 2026 Gopal Chavan Guniting Work. All Rights Reserved.</p>
+                    <p>&copy; 2026 GC Constructions Pvt Ltd. All Rights Reserved.</p>
                 </div>
             </footer>
 
             {/* WhatsApp Floating Button */}
             <a
-                href="https://wa.me/919398577232?text=Hello%20Gopal%20Chavan%20Guniting%20Works,%20I%20have%20an%20inquiry."
+                href="https://wa.me/919398577232?text=Hello%20GC%20Constructions%20Pvt%20Ltd,%20I%20have%20an%20inquiry."
                 className="whatsapp-btn"
                 target="_blank"
                 rel="noopener noreferrer"

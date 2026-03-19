@@ -14,7 +14,7 @@ export default function Home() {
       >
         <div className="container hero-content animate-on-scroll">
           <h1 className="hero-title corporate-title" style={{ marginBottom: "20px" }}>
-            GOPAL CHAVAN GUNITING WORKS
+            GC Constructions Pvt Ltd
           </h1>
           <p
             style={{
@@ -174,25 +174,25 @@ export default function Home() {
           </div>
           <div className="gallery-grid">
             <div className="gallery-item animate-on-scroll">
-              <img src="/assets/gallery-1.png" alt="GCGW guniting machine construction work" loading="lazy" />
+              <img src="/assets/gallery-1.png" alt="GC Constructions guniting machine construction work" loading="lazy" />
               <div className="gallery-overlay">
                 <span>Shot Creting Work</span>
               </div>
             </div>
             <div className="gallery-item animate-on-scroll">
-              <img src="/assets/gallery-2.png" alt="GCGW soil anchoring services" loading="lazy" />
+              <img src="/assets/gallery-2.png" alt="GC Constructions soil anchoring services" loading="lazy" />
               <div className="gallery-overlay">
                 <span>Soil Anchoring</span>
               </div>
             </div>
             <div className="gallery-item animate-on-scroll">
-              <img src="/assets/gallery-1.png" alt="GCGW shotcrete reinforcement construction" loading="lazy" />
+              <img src="/assets/gallery-1.png" alt="GC Constructions shotcrete reinforcement construction" loading="lazy" />
               <div className="gallery-overlay">
                 <span>Structural Reinforcement</span>
               </div>
             </div>
             <div className="gallery-item animate-on-scroll">
-              <img src="/assets/gallery-2.png" alt="GCGW sand blasting and painting" loading="lazy" />
+              <img src="/assets/gallery-2.png" alt="GC Constructions sand blasting and painting" loading="lazy" />
               <div className="gallery-overlay">
                 <span>Surface Preparation</span>
               </div>
