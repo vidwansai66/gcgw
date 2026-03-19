@@ -22,10 +22,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: currentDate,
     },
     {
-      url: `${baseUrl}/careers`,
-      lastModified: currentDate,
-    },
-    {
       url: `${baseUrl}/contact`,
       lastModified: currentDate,
     },
