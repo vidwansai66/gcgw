@@ -10,23 +10,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: currentDate,
     },
     {
-      url: `${baseUrl}/about.html`,
+      url: `${baseUrl}/about`,
       lastModified: currentDate,
     },
     {
-      url: `${baseUrl}/services.html`,
+      url: `${baseUrl}/services`,
       lastModified: currentDate,
     },
     {
-      url: `${baseUrl}/projects.html`,
+      url: `${baseUrl}/projects`,
       lastModified: currentDate,
     },
     {
-      url: `${baseUrl}/careers.html`,
+      url: `${baseUrl}/careers`,
       lastModified: currentDate,
     },
     {
-      url: `${baseUrl}/contact.html`,
+      url: `${baseUrl}/contact`,
       lastModified: currentDate,
     },
   ]
