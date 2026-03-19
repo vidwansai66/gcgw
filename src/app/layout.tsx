@@ -17,6 +17,9 @@ export const metadata: Metadata = {
     "GC Constructions Pvt Ltd is a platform connecting contractors, guniting machine owners, and construction workers. Instantly find available machines and skilled workers for construction projects.",
   keywords:
     "GC Constructions, guniting machines, construction machines India, shotcrete services, construction workers platform, GC Constructions Pvt Ltd, guniting services India",
+  verification: {
+    google: "VnvsyzRggNzdIs7hoApjFLwqkc02JLC8gzdZ84FvHCw",
+  },
 };
 
 export default function RootLayout({
