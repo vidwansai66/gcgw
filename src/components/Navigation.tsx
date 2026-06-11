@@ -27,58 +27,59 @@ export default function Navigation() {
         setIsMenuActive(!isMenuActive);
     };
 
+// Navigation.tsx
     return (
         <header className={`header ${isScrolled ? "scrolled" : ""}`}>
-            <div className="container nav-container layout-centered">
-                <Link href="/" className="brand-link logo-left">
-                    <div className="logo">
-                        <img
-                            src="/assets/logo.png"
-                            alt="GC Constructions Pvt Ltd Logo"
-                            className="corporate-logo"
-                        />
-                        <div className="logo-text">
-                            <span className="company-name">GC Constructions Pvt Ltd</span>
-                            <span className="tagline">Construction & Infrastructure</span>
-                        </div>
-                    </div>
-                </Link>
-                <nav className="nav-menu">
-                    <ul className={`nav-list ${isMenuActive ? "active" : ""}`}>
-                        <li>
-                            <Link href="/" className="nav-link">
-                                Home
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/about" className="nav-link">
-                                About Us
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/services" className="nav-link">
-                                Services
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/projects" className="nav-link">
-                                Projects
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/careers" className="nav-link">
-                                Careers
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/contact" className="nav-link">
-                                Contact
-                            </Link>
-                        </li>
-                    </ul>
-                </nav>
+            <div className="container nav-container layout-centered-col">
                 <div className="hamburger" onClick={toggleMenu}>
                     <i className={`fas ${isMenuActive ? "fa-times" : "fa-bars"}`}></i>
+                </div>
+                <div className="header-top">
+                    <Link href="/" className="brand-link logo-centered">
+                        <div className="logo">
+                            <img
+                                src="/assets/logo.png"
+                                alt="GC Constructions Pvt Ltd Logo"
+                                className="corporate-logo"
+                            />
+                        </div>
+                    </Link>
+                </div>
+                <div className="header-bottom">
+                    <nav className="nav-menu">
+                        <ul className={`nav-list ${isMenuActive ? "active" : ""}`}>
+                            <li>
+                                <Link href="/" className="nav-link">
+                                    Home
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/about" className="nav-link">
+                                    About Us
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/services" className="nav-link">
+                                    Services
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/projects" className="nav-link">
+                                    Projects
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/careers" className="nav-link">
+                                    Careers
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/contact" className="nav-link">
+                                    Contact
+                                </Link>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </header>

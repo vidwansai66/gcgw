@@ -62,6 +62,7 @@ export default function CareersPage() {
                   <select
                     id="career-role"
                     required
+                    defaultValue=""
                     style={{
                       width: "100%",
                       padding: "15px",
@@ -74,7 +75,7 @@ export default function CareersPage() {
                       cursor: "pointer",
                     }}
                   >
-                    <option value="" disabled selected>
+                    <option value="" disabled>
                       Role applying for...
                     </option>
                     <option value="Machine Operator">Machine Operator</option>

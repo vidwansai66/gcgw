@@ -19,58 +19,91 @@ export default function ProjectsPage() {
       {/* Projects Section */}
       <section className="section bg-light">
         <div className="container">
-          <div className="gallery-grid">
+          <div className="section-header animate-on-scroll" style={{ marginTop: 0, marginBottom: "40px" }}>
+            <h2>Completed Projects</h2>
+            <div className="divider"></div>
+          </div>
+          <div className="gallery-grid" style={{ marginBottom: "60px" }}>
             {/* Project 1 */}
             <div className="gallery-item animate-on-scroll">
-              <img
-                src="/assets/gallery-1.png"
-                alt="GC Constructions Commercial Building Reinforcement Hyderabad"
-                loading="lazy"
-              />
+              <img src="/assets/project-1.jpg" alt="GC Constructions Structural Work Mumbai 2100 sq meters" loading="lazy" />
               <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
-                <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Hyderabad Metro</span>
+                <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Structural Work</span>
                 <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
-                  <i className="fas fa-map-marker-alt"></i> Hyderabad, TS
+                  <i className="fas fa-map-marker-alt"></i> Mumbai
                 </span>
-                <span style={{ fontSize: "0.8rem", fontWeight: 300 }}>Extensive structural strengthening and guniting.</span>
+                <span style={{ fontSize: "0.8rem", fontWeight: 300 }}>Area: 2100 sq meters</span>
               </div>
             </div>
             {/* Project 2 */}
             <div className="gallery-item animate-on-scroll" style={{ animationDelay: "0.1s" }}>
-              <img src="/assets/gallery-2.png" alt="GC Constructions Highway Tunnel Guniting Pune" loading="lazy" />
+              <img src="/assets/project-2.jpg" alt="GC Constructions Wall Work Odisha 800 sq meters" loading="lazy" />
               <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
-                <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Highway Tunnel</span>
+                <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Wall Work</span>
                 <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
-                  <i className="fas fa-map-marker-alt"></i> Pune, MH
+                  <i className="fas fa-map-marker-alt"></i> Odisha
                 </span>
-                <span style={{ fontSize: "0.8rem", fontWeight: 300 }}>High-pressure shotcrete application for tunnel stability.</span>
+                <span style={{ fontSize: "0.8rem", fontWeight: 300 }}>Area: 800 sq meters</span>
               </div>
             </div>
             {/* Project 3 */}
             <div className="gallery-item animate-on-scroll" style={{ animationDelay: "0.2s" }}>
-              <img
-                src="/assets/gallery-1.png"
-                alt="GC Constructions Retaining Wall Stabilization Visakhapatnam"
-                loading="lazy"
-              />
+              <img src="/assets/project-3.jpg" alt="GC Constructions Structural Work Mumbai 950 sq meters" loading="lazy" />
               <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
-                <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Hillside Retaining Wall</span>
+                <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Structural Work</span>
                 <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
-                  <i className="fas fa-map-marker-alt"></i> Visakhapatnam, AP
+                  <i className="fas fa-map-marker-alt"></i> Mumbai
                 </span>
-                <span style={{ fontSize: "0.8rem", fontWeight: 300 }}>Soil anchoring and slope stabilization.</span>
+                <span style={{ fontSize: "0.8rem", fontWeight: 300 }}>Area: 950 sq meters</span>
               </div>
             </div>
             {/* Project 4 */}
             <div className="gallery-item animate-on-scroll" style={{ animationDelay: "0.3s" }}>
-              <img src="/assets/gallery-2.png" alt="GC Constructions Industrial Furnace Repair Bellary" loading="lazy" />
+              <img src="/assets/project-4.jpg" alt="GC Constructions Structural Work Indore 650 sq meters" loading="lazy" />
               <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
-                <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Steel Plant Furnace</span>
+                <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Structural Work</span>
                 <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
-                  <i className="fas fa-map-marker-alt"></i> Bellary, KA
+                  <i className="fas fa-map-marker-alt"></i> Indore
                 </span>
-                <span style={{ fontSize: "0.8rem", fontWeight: 300 }}>
-                  Specialized refractory work and heat-resistant reinforcement.
+                <span style={{ fontSize: "0.8rem", fontWeight: 300 }}>Area: 650 sq m</span>
+              </div>
+            </div>
+            {/* Project 5 */}
+            <div className="gallery-item animate-on-scroll" style={{ animationDelay: "0.4s" }}>
+              <img src="/assets/project-5.jpg" alt="GC Constructions Structural Work Indore 400 sq meters" loading="lazy" />
+              <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
+                <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Structural Work</span>
+                <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
+                  <i className="fas fa-map-marker-alt"></i> Indore
+                </span>
+                <span style={{ fontSize: "0.8rem", fontWeight: 300 }}>Area: 400 sq m</span>
+              </div>
+            </div>
+            {/* Project 6 */}
+            <div className="gallery-item animate-on-scroll" style={{ animationDelay: "0.5s" }}>
+              <img src="/assets/project-6.png" alt="GC Constructions Wall Work Mumbai 400 sq meters" loading="lazy" />
+              <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
+                <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Wall Work</span>
+                <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
+                  <i className="fas fa-map-marker-alt"></i> Mumbai
+                </span>
+                <span style={{ fontSize: "0.8rem", fontWeight: 300 }}>Area: 400 sq meters</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="section-header animate-on-scroll" style={{ marginTop: "40px", marginBottom: "40px" }}>
+            <h2>Ongoing Works</h2>
+            <div className="divider"></div>
+          </div>
+          <div className="gallery-grid">
+            {/* Ongoing Project 1 */}
+            <div className="gallery-item animate-on-scroll">
+              <img src="/assets/ongoing-1.jpg" alt="GC Constructions Ongoing Structural Work Pune" loading="lazy" />
+              <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
+                <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Structural Work</span>
+                <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
+                  <i className="fas fa-map-marker-alt"></i> Pune
                 </span>
               </div>
             </div>
