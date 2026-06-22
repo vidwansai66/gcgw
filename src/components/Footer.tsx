@@ -40,7 +40,7 @@ export default function Footer() {
                     <div className="footer-contact">
                         <h4>Contact</h4>
                         <p>Yousufguda, Hyderabad - 500045</p>
-                        <p>Phone: +91 939857 7232</p>
+                        <p>Phone: +91 939857 7232<br />+91 63548 67785</p>
                     </div>
                 </div>
                 <div className="footer-bottom">

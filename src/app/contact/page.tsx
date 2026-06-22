@@ -30,6 +30,8 @@ export default function ContactPage() {
                   <h4>Call Us</h4>
                   <p>
                     <a href="tel:9398577232">+91 939857 7232</a>
+                    <br />
+                    <a href="tel:6354867785">+91 63548 67785</a>
                   </p>
                 </div>
               </div>
