@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Projects | Gopal Chavan Guniting Works Pvt Ltd",
+  title: "Our Projects | Gopal Chavan Guniting Works",
   description: "View our portfolio of successful construction and structural reinforcement projects.",
 };
 

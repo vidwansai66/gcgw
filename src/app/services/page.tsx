@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Construction Services | Gopal Chavan Guniting Works Pvt Ltd",
+  title: "Construction Services | Gopal Chavan Guniting Works",
   description:
-    "Gopal Chavan Guniting Works Pvt Ltd is a platform connecting contractors, guniting machine owners, and construction workers. Instantly find available machines and skilled workers for construction projects.",
+    "Gopal Chavan Guniting Works is a platform connecting contractors, guniting machine owners, and construction workers. Instantly find available machines and skilled workers for construction projects.",
 };
 
 export default function ServicesPage() {

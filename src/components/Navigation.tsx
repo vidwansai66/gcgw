@@ -39,7 +39,7 @@ export default function Navigation() {
                         <div className="logo">
                             <img
                                 src="/assets/logo.png"
-                                alt="Gopal Chavan Guniting Works Pvt Ltd Logo"
+                                alt="Gopal Chavan Guniting Works Logo"
                                 className="corporate-logo"
                             />
                         </div>
