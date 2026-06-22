@@ -159,7 +159,7 @@ export default function Home() {
           <div className="gallery-grid">
             {/* Project 1 */}
             <div className="gallery-item animate-on-scroll">
-              <img src="/assets/project-1.jpg" alt="GC Constructions Structural Work Mumbai 2100 sq meters" loading="lazy" />
+              <img src="/assets/project-1.jpg" alt="Gopal Chavan Guniting Works Structural Work Mumbai 2100 sq meters" loading="lazy" />
               <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
                 <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Structural Work</span>
                 <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
@@ -170,7 +170,7 @@ export default function Home() {
             </div>
             {/* Project 2 */}
             <div className="gallery-item animate-on-scroll" style={{ animationDelay: "0.1s" }}>
-              <img src="/assets/project-2.jpg" alt="GC Constructions Wall Work Odisha 800 sq meters" loading="lazy" />
+              <img src="/assets/project-2.jpg" alt="Gopal Chavan Guniting Works Wall Work Odisha 800 sq meters" loading="lazy" />
               <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
                 <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Wall Work</span>
                 <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
@@ -181,7 +181,7 @@ export default function Home() {
             </div>
             {/* Project 3 */}
             <div className="gallery-item animate-on-scroll" style={{ animationDelay: "0.2s" }}>
-              <img src="/assets/project-3.jpg" alt="GC Constructions Structural Work Mumbai 950 sq meters" loading="lazy" />
+              <img src="/assets/project-3.jpg" alt="Gopal Chavan Guniting Works Structural Work Mumbai 950 sq meters" loading="lazy" />
               <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
                 <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Structural Work</span>
                 <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
@@ -192,7 +192,7 @@ export default function Home() {
             </div>
             {/* Project 4 */}
             <div className="gallery-item animate-on-scroll" style={{ animationDelay: "0.3s" }}>
-              <img src="/assets/project-4.jpg" alt="GC Constructions Structural Work Indore 650 sq meters" loading="lazy" />
+              <img src="/assets/project-4.jpg" alt="Gopal Chavan Guniting Works Structural Work Indore 650 sq meters" loading="lazy" />
               <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
                 <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Structural Work</span>
                 <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
@@ -203,7 +203,7 @@ export default function Home() {
             </div>
             {/* Project 5 */}
             <div className="gallery-item animate-on-scroll" style={{ animationDelay: "0.4s" }}>
-              <img src="/assets/project-5.jpg" alt="GC Constructions Structural Work Indore 400 sq meters" loading="lazy" />
+              <img src="/assets/project-5.jpg" alt="Gopal Chavan Guniting Works Structural Work Indore 400 sq meters" loading="lazy" />
               <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
                 <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Structural Work</span>
                 <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
@@ -214,7 +214,7 @@ export default function Home() {
             </div>
             {/* Project 6 */}
             <div className="gallery-item animate-on-scroll" style={{ animationDelay: "0.5s" }}>
-              <img src="/assets/project-6.png" alt="GC Constructions Wall Work Mumbai 400 sq meters" loading="lazy" />
+              <img src="/assets/project-6.png" alt="Gopal Chavan Guniting Works Wall Work Mumbai 400 sq meters" loading="lazy" />
               <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
                 <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Wall Work</span>
                 <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>

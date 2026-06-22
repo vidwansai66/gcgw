@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Projects | GC Constructions Pvt Ltd",
+  title: "Our Projects | Gopal Chavan Guniting Works Pvt Ltd",
   description: "View our portfolio of successful construction and structural reinforcement projects.",
 };
 
@@ -26,7 +26,7 @@ export default function ProjectsPage() {
           <div className="gallery-grid" style={{ marginBottom: "60px" }}>
             {/* Project 1 */}
             <div className="gallery-item animate-on-scroll">
-              <img src="/assets/project-1.jpg" alt="GC Constructions Structural Work Mumbai 2100 sq meters" loading="lazy" />
+              <img src="/assets/project-1.jpg" alt="Gopal Chavan Guniting Works Structural Work Mumbai 2100 sq meters" loading="lazy" />
               <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
                 <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Structural Work</span>
                 <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
@@ -37,7 +37,7 @@ export default function ProjectsPage() {
             </div>
             {/* Project 2 */}
             <div className="gallery-item animate-on-scroll" style={{ animationDelay: "0.1s" }}>
-              <img src="/assets/project-2.jpg" alt="GC Constructions Wall Work Odisha 800 sq meters" loading="lazy" />
+              <img src="/assets/project-2.jpg" alt="Gopal Chavan Guniting Works Wall Work Odisha 800 sq meters" loading="lazy" />
               <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
                 <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Wall Work</span>
                 <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
@@ -48,7 +48,7 @@ export default function ProjectsPage() {
             </div>
             {/* Project 3 */}
             <div className="gallery-item animate-on-scroll" style={{ animationDelay: "0.2s" }}>
-              <img src="/assets/project-3.jpg" alt="GC Constructions Structural Work Mumbai 950 sq meters" loading="lazy" />
+              <img src="/assets/project-3.jpg" alt="Gopal Chavan Guniting Works Structural Work Mumbai 950 sq meters" loading="lazy" />
               <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
                 <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Structural Work</span>
                 <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
@@ -59,7 +59,7 @@ export default function ProjectsPage() {
             </div>
             {/* Project 4 */}
             <div className="gallery-item animate-on-scroll" style={{ animationDelay: "0.3s" }}>
-              <img src="/assets/project-4.jpg" alt="GC Constructions Structural Work Indore 650 sq meters" loading="lazy" />
+              <img src="/assets/project-4.jpg" alt="Gopal Chavan Guniting Works Structural Work Indore 650 sq meters" loading="lazy" />
               <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
                 <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Structural Work</span>
                 <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
@@ -70,7 +70,7 @@ export default function ProjectsPage() {
             </div>
             {/* Project 5 */}
             <div className="gallery-item animate-on-scroll" style={{ animationDelay: "0.4s" }}>
-              <img src="/assets/project-5.jpg" alt="GC Constructions Structural Work Indore 400 sq meters" loading="lazy" />
+              <img src="/assets/project-5.jpg" alt="Gopal Chavan Guniting Works Structural Work Indore 400 sq meters" loading="lazy" />
               <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
                 <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Structural Work</span>
                 <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
@@ -81,7 +81,7 @@ export default function ProjectsPage() {
             </div>
             {/* Project 6 */}
             <div className="gallery-item animate-on-scroll" style={{ animationDelay: "0.5s" }}>
-              <img src="/assets/project-6.png" alt="GC Constructions Wall Work Mumbai 400 sq meters" loading="lazy" />
+              <img src="/assets/project-6.png" alt="Gopal Chavan Guniting Works Wall Work Mumbai 400 sq meters" loading="lazy" />
               <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
                 <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Wall Work</span>
                 <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>
@@ -99,7 +99,7 @@ export default function ProjectsPage() {
           <div className="gallery-grid">
             {/* Ongoing Project 1 */}
             <div className="gallery-item animate-on-scroll">
-              <img src="/assets/ongoing-1.jpg" alt="GC Constructions Ongoing Structural Work Pune" loading="lazy" />
+              <img src="/assets/ongoing-1.jpg" alt="Gopal Chavan Guniting Works Ongoing Structural Work Pune" loading="lazy" />
               <div className="gallery-overlay" style={{ flexDirection: "column", textAlign: "center", padding: "20px" }}>
                 <span style={{ fontSize: "1.4rem", marginBottom: "10px" }}>Structural Work</span>
                 <span style={{ fontSize: "0.9rem", fontWeight: 400, marginBottom: "5px" }}>

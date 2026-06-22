@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About GC Constructions | Guniting & Infrastructure",
+  title: "About Gopal Chavan Guniting Works | Guniting & Infrastructure",
   description:
-    "GC Constructions Pvt Ltd is a platform connecting contractors, guniting machine owners, and construction workers. Instantly find available machines and skilled workers for construction projects.",
+    "Gopal Chavan Guniting Works Pvt Ltd is a platform connecting contractors, guniting machine owners, and construction workers. Instantly find available machines and skilled workers for construction projects.",
 };
 
 export default function AboutPage() {
@@ -12,7 +12,7 @@ export default function AboutPage() {
       {/* Inner Hero Section */}
       <section className="inner-hero" style={{ backgroundImage: "url('/assets/hero-bg.png')" }}>
         <div className="container inner-hero-content animate-on-scroll">
-          <h1 className="inner-hero-title">About GC Constructions Pvt Ltd</h1>
+          <h1 className="inner-hero-title">About Gopal Chavan Guniting Works Pvt Ltd</h1>
           <p className="inner-hero-subtitle">
             Specialists in structural reinforcement, soil anchoring, and professional guniting services across India.
           </p>
